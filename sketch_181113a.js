@@ -11,11 +11,9 @@ frameRate(10);
 
 function draw() {
   if(keyIsPressed){
- x1=random(0,700);
- y1=random(0,230);
  ellipseMode(RADIUS);
  fill(249);
-ellipse(x1, y1, 10, 10); // Draw white ellipse using RADIUS mode
+ellipse(mouseX, mouseY, 10, 10); // Draw white ellipse using RADIUS mode
 
 ellipseMode(CENTER); // Set ellipseMode to CENTER
 fill(0); // Set fill to gray
