@@ -17,7 +17,7 @@ ellipse(mouseX, mouseY, 10, 10); // Draw white ellipse using RADIUS mode
 
 ellipseMode(CENTER); // Set ellipseMode to CENTER
 fill(0); // Set fill to gray
-ellipse(x1, y1, 7,7); // Draw gray ellipse using CENTER mode 
+ellipse(mouseX, mouseY, 7,7); // Draw gray ellipse using CENTER mode 
   }
 noStroke();
 fill(x,0,0);
